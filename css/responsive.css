@@ -1,0 +1,10 @@
+@media (width <= 640px) {
+    .card {
+        width: 373px;
+    }
+
+    .card-header .overlay {
+        width: 373px;
+        margin-top: 190px;
+    }
+}

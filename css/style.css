@@ -1,0 +1,96 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --background-page-color: #F2F5F9;
+    --background-card-color: #FFFFFF;
+    --title-color: #111729;
+    --paragraph-color: #677489;
+}
+
+body {
+    background-color: var(--background-page-color);
+}
+
+.card {
+    margin: 6em auto;
+    width: 418px;
+    background-color: var(--background-card-color);
+    border-radius: 16px;
+}
+
+.card-header {
+    display: flex;
+    flex-direction: column;
+}
+
+.card-header .image {
+    border-radius: 16px;
+    width: 100%;
+}
+
+.card-header .overlay {
+    margin-top: 215px;
+    position: absolute;
+}
+
+.card-content {
+    display: flex;
+    flex-direction: column;
+    padding: 0px 32px;
+}
+
+.card-content h1 {
+    font-family: 'Poppins', sans-serif;
+    font-size: 24px;
+    font-weight: 500;
+}
+
+.card-content p {
+    font-family: 'Lato', sans-serif;
+    font-size: 16px;
+    font-weight: 350;
+    margin-top: 14px;
+    line-height: 21px;
+}
+
+.card hr {
+    border: 1px solid var(--background-page-color);
+    margin: 32px 0px 0px 0px;
+}
+
+.card-footer {
+    display: grid;
+    grid-template-columns: 15% 85%;
+    grid-template-rows: 100%;
+    grid-template-areas: 
+    "avatar content-title"
+    "avatar content-about";
+    padding: 32px;
+}
+
+.card-footer img {
+    grid-area: avatar;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+}
+
+.card-footer h1 {
+    grid-area: content-title;
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    text-transform: capitalize;
+    font-weight: 450;
+}
+
+.card-footer p {
+    grid-area: content-about;
+    font-family: 'Lato', sans-serif;
+    font-size: 13px;
+    text-transform: capitalize;
+    font-weight: 370;
+}
