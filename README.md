@@ -1,12 +1,14 @@
-# Business Blog Card
-![Demo](screenshots/demo.png)
+![Demo](docs/demo.png)
 
-## Build with:
-* HTML
-* CSS
-    * Flexbox
-    * Grid
+## Build with
 
-## About & Features:
-* Frontend
-* [Challenge (*devchallenges.io*)](https://devchallenges.io/challenge/business-blog-card)
+- HTML5
+- CSS3
+    - Flexbox
+    - Grid
+
+## About & Features
+
+- Frontend
+- Responsive
+- [Challenge (*devchallenges.io*)](https://devchallenges.io/challenge/business-blog-card)
